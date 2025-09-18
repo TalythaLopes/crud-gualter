@@ -30,9 +30,9 @@ model Room {
 model Reserva {
   id          String   @id @default(cuid())
   proposito   String
-  dtInicio    Int
-  dtFim       Int
-  author      String
+  qtdPessoas  Int
+  dtInicio    String   //não lembro e não achei o tipo de data
+  dtFim       String   //não lembro e não achei o tipo de data
   userId      String  
   user        Usuario  @relation(fields: [userId], references: [id])
   roomId      String  
