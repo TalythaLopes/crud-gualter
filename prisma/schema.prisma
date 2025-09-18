@@ -31,8 +31,8 @@ model Reserva {
   id          String   @id @default(cuid())
   proposito   String
   qtdPessoas  Int
-  dtInicio    String   //não lembro e não achei o tipo de data
-  dtFim       String   //não lembro e não achei o tipo de data
+  dtInicio    String   //DateTime
+  dtFim       String   //DateTime
   userId      String  
   user        Usuario  @relation(fields: [userId], references: [id])
   roomId      String  
