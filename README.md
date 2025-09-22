@@ -22,9 +22,6 @@ npm install
 # Rode as migrations
 npx prisma migrate dev --name init
 
-# Popule o banco
-npm run seed
-
 # Inicie o servidor
 npm run start
 ```
