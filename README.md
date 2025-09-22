@@ -1,6 +1,6 @@
 # Booker API
 API RESTful desenvolvida como parte do processo seletivo para o Setor de Inovação da Tek-System. O projeto visa gerenciar **usuários**, **salas de reunião** e **reservas**, com foco na **validação de conflitos**, **regras de permissão** e **controle de acesso via JWT**.
-> [Ddocumento com todas as instruções do desafio.](https://www.notion.so/Proc-Seletivo-Setor-de-Inova-o-Etapa-2-de-3-21e8c3ad88a980079523e1253ae04420)
+> [Documento com todas as instruções do desafio.](https://www.notion.so/Proc-Seletivo-Setor-de-Inova-o-Etapa-2-de-3-21e8c3ad88a980079523e1253ae04420)
 
 ## Tecnolohias e Pré-requisitos
 - [Node.js (vLTS)](https://nodejs.org/)
