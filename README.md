@@ -79,12 +79,14 @@ Exemplos:
     "roomId": "303"
 }
 
+# Sala
 {
     "nome": "Sala 101",
     "capacity": 100,
     "about": "Sala equipada com sistema de som e projetor."
 }
 
+# Usuário
 {
     "nome": "Adam Carlsen",
     "email": "adam@email.com",
