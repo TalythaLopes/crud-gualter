@@ -20,7 +20,7 @@ cd crud-gualter
 npm install
 
 # Rode as migrations
-npx prisma migrate dev --name init
+npx prisma generate
 
 # Inicie o servidor
 npm run start
